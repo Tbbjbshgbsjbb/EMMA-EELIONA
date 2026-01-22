@@ -43,7 +43,7 @@ Fᴇᴍᴀʟᴇ    : ${female}
 Aᴅᴍɪɴs    : ${info.adminIDs.length}
 Mᴇssᴀɢᴇs  : ${info.messageCount}
 
-— Mᴏʜᴀᴍᴍᴀᴅ Aᴋᴀsʜ`;
+— ARIYAN ISLAM SHAWON`;
 
     const send = () =>
       api.sendMessage(
