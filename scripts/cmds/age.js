@@ -16,7 +16,7 @@ module.exports = {
     try {
       if (!args.length) {
         return api.sendMessage(
-          "⚠️ Uꜱᴇ:\n• age 2007\n• age 01/05/2007\n• age 3 May 2007\n• age 3/may/2007",
+          "⚠️ Uꜱᴇ:\n• age 2006\n• age 06/12/2006\n• age 6 dec 2006\n• age 6/dec/2006",
           event.threadID
         );
       }
