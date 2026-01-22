@@ -172,7 +172,7 @@ module.exports = {
       const simpleTriggers = ["baby", "bot", "bby", "বেবি", "বট", "oi", "oii", "jan"];
       if (simpleTriggers.includes(raw)) {
         await sendTyping();
-        const replies = ["ডাকো কেন 🥺 প্রেম করবা নাকি 😞", "বুকাচুদা আর কত বট বট করবি 🐸", "ওই জান কাছে আসো 🫦👅", "আলাবু বলো সোনা 🤧", "আকাশ কে দেখছো? 🥺 তাকে কোথাও খুজে পাচ্ছি না 😩", "তুমার নুনুতে উম্মাহ 🥺🤌", "হ্যাঁ গো জান বলো 🙂", "ডাকিস না, তুই পচা 😼"];
+        const replies = ["Why you calling me ", "you bitch how many times you will call me", "TARI MAKO ASSALAMUALAIKUM", "I Love you bby", "have you see my senpai TANJIRO? 🥺 তাকে কোথাও খুজে পাচ্ছি না 😩", "F%%k you bby", "Dhon halaite dakos 🙂", "Go to hell you bad guy😼"];
         const reply = replies[Math.floor(Math.random() * replies.length)];
         return message.reply(reply, (err, info) => {
           if (!err) global.GoatBot.onReply.set(info.messageID, { commandName: "baby", author: senderID });
